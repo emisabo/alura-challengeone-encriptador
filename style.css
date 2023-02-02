@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+margin-top: 20px;
+margin-left: 30px;
+}
+
+
+body {
+ /* background-color: #349289;*/
+ background-image: url(fondo-abstracto-letras-negras_79276-87.jpg); 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 20px;
+  width: 940px;
+  margin: auto;
+  font-weight: bold;
+  color: green;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  text-shadow:10px 20px 30px #000000;
+}
+
+.lab {
+  color: rgb(8, 2, 2);
+ font-weight: bold;
+
+}
+
+.form {
+text-align: center;
+
+}
+
+
+.msg {
+
+  text-align:center
+}
+
+
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  background:#c3c3c3;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: 13vw;
+  transition: 400ms;
+  box-shadow: 10px 10px 30px 15px #000000;
+
+
+
+}
+
+.btn {
+  border: 0;
+  color: rgb(29, 27, 27);
+  font-weight: bold;
+  background-color: rgb(240, 162, 116);
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 0.5em;
+  transition: 1s all;
+    cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn:hover{
+  background: #555555;
+  transform:scale(1.2);
+
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display:inline-block;
+  padding: 0.3em;
+  width: 100%;
+  height: 100px;
+  background-color:#fcfcfa;
+  overflow:hidden;
+  box-sizing: border-box;
+  border: 2px solid #662222;
+  border-radius: 10px;
+
+
+}
+
+.text-input:hover{
+border-color: pink;
+
+}
+ #input-texto{
+color: black;
+font-size: 20px;
+
+ }
+#msg {
+font-size: 20px;
+color: red;
+
+}
+
+
+footer {
+  text-align: center;  
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  position:fixed;
+  background-color: rgb(20, 20, 20);
+ 
+}
+.pie{
+  font-family:alegreya-light;
+  font-size:15px;
+  color:silver;
+  padding: 1em;
+}
+
